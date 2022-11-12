@@ -51,3 +51,11 @@ Declaring Map Area with the obstacles:
   ```
 
 ## Example Generated Path
+
+Border Red: Borders <br>
+Green Line: Generated Path using Voronoi <br>
+Inner Red Rectangles: Obstacles <br>
+Inner Red Dots: Junctions <br>
+Yellow dots/line: chosen path to go from starting to goal <br>
+![voronoi_example](https://user-images.githubusercontent.com/76828992/201459516-c200127f-8e61-42cd-8f40-182761ac9efa.PNG)
+
