@@ -45,9 +45,10 @@ Declaring Obstacle Example:
   obstacles.push_back(rectangleObstacle);
   ```
 
-Declaring Map Area with the obstacles:
+Declaring Map Area:
   ```
-  Voronoi *map = new Voronoi(x, y, obstacles);
+  const double maxX = ?;
+  const double maxY = ?;
   ```
 
 ## Example Generated Path

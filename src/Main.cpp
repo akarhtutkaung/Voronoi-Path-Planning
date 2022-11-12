@@ -7,6 +7,9 @@
 
 #include "Voronoi.h"
 
+const double maxX = 200;
+const double maxY = 200;
+
 int main() {
   
   std::vector<Point *> table1P;
@@ -107,7 +110,7 @@ int main() {
   obstacles.push_back(table11);
   obstacles.push_back(table12);
 
-  Voronoi *map = new Voronoi(200, 200, obstacles);
+  Voronoi *map = new Voronoi(maxX, maxY, obstacles);
   std::vector<Point *> *voronoi = map->getVoronoiPoints();
   obstacles = *map->getobstacles();
   std::vector<Point *> *junctions = map->getJunctions();
