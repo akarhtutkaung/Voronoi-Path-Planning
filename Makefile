@@ -19,8 +19,10 @@ $(EXEFILE): $(OBJFILES)
 $(BUILD_DIR)/%.o: %.cpp
 	mkdir -p $(dir $@)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
-	rm -rf plot.m
-	cat config/draw.m > build/draw.m
+	rm -rf drawAll.m
+	rm -rf drawPathOnly.m
+	cat config/drawAll.m > build/drawAll.m
+	cat config/drawPathOnly.m > build/drawPathOnly.m
 
 clean:
 	rm -rf $(BUILD_DIR)

@@ -26,7 +26,7 @@ This program will generate the path (nodes) of voronoi edges by getting the user
     ./Voronoi
     ```
     *Note: This will generate the path/nodes*
-4. To visualize the path, open current `build` folder in Matlab and run `draw.m` file. 
+4. To visualize the path, open current `build` folder in Matlab and run either `drawAll.m` or `drawPathOnly.m` file. 
 
 ## Modifying the environment
 The environment is hard coded, thus, to change the environment, set the data inside the `src/Main.ccp`.
