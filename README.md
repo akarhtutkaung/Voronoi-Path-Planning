@@ -60,3 +60,5 @@ Inner Red Dots: Junctions <br>
 Yellow dots/line: chosen path to go from starting to goal <br>
 ![voronoi_example](https://user-images.githubusercontent.com/76828992/201459516-c200127f-8e61-42cd-8f40-182761ac9efa.PNG)
 
+![voronoi_example_path_only](https://user-images.githubusercontent.com/76828992/201459845-263a8816-3140-4ff6-9043-ba1dfdb3ad03.png)
+
